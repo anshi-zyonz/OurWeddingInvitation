@@ -74,6 +74,16 @@
       }
     };
   </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HFJ1MBRXR5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HFJ1MBRXR5');
+  </script>
 </head>
 
 <body>
@@ -121,7 +131,7 @@
         <div class="col-lg-2">
           <div class="header-btn">
             <a href="https://www.google.com/maps/place/Cloud+7+Convention+Centre/@10.8205375,76.4905657,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba877003f83e93f:0xe93dc78f3f4f82b1!8m2!3d10.8205375!4d76.4931406!16s%2Fg%2F11y31g94v3?entry=ttu&g_ep=EgoyMDI2MDQxNC4wIKXMDSoASAFQAw%3D%3D"
-              target="_blank">Location</a>
+              target="_blank" onclick="gtag('event','map_click');">Location</a>
           </div>
         </div>
       </div>
@@ -462,7 +472,7 @@
             </div>
             <div class="about-btn mt-5">
               <a href="https://www.google.com/maps/place/Cloud+7+Convention+Centre/@10.8205375,76.4905657,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba877003f83e93f:0xe93dc78f3f4f82b1!8m2!3d10.8205375!4d76.4931406!16s%2Fg%2F11y31g94v3?entry=ttu&g_ep=EgoyMDI2MDQxNC4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank">Show on Map</a>
+                target="_blank" onclick="gtag('event','map_click');">Show on Map</a>
             </div>
           </div>
         </div>
@@ -500,7 +510,7 @@
       <div id="rsvp-yes-content" class="rsvp-action-box" style="display: none; margin-top: 30px;">
         <h4 style="margin-bottom: 20px; font-size: 20px;">Fantastic! We can't wait to see you.</h4>
         <a href="https://www.google.com/maps/place/Cloud+7+Convention+Centre/@10.8205375,76.4905657,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba877003f83e93f:0xe93dc78f3f4f82b1!8m2!3d10.8205375!4d76.4931406!16s%2Fg%2F11y31g94v3?entry=ttu&g_ep=EgoyMDI2MDQxNC4wIKXMDSoASAFQAw%3D%3D"
-          target="_blank" class="rsvp-link-btn">Get Directions</a>
+          target="_blank" class="rsvp-link-btn" onclick="gtag('event','map_click');">Get Directions</a>
         <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Anshif+%26+Usala+Wedding+Reception&dates=20260607T060000Z/20260607T110000Z&details=Join+us+for+the+wedding+reception+of+Anshif+%26+Usala!&location=Cloud+7+Convention+Centre,+Thadukkassery"
           target="_blank" class="rsvp-link-btn" style="margin-left: 15px;">Add to Calendar</a>
       </div>
